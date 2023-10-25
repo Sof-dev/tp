@@ -1,0 +1,173 @@
+/*body {
+   background-color: #DCDCDC;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+  table { 
+    margin-left: 20%; 
+    margin-right: 20%; 
+    font-size: 20px; 
+    height: 100%; 
+    table-layout: fixed; 
+} 
+.red{
+    color:red; 
+}
+td { 
+ 
+    text-align: center; 
+    padding: 10px; 
+} 
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+table tr {
+    background: black;
+    color: white;
+}
+.grayClair{
+     background: #DCDCDC;
+    color: black;
+}
+.grayMoyen{
+    background: #C0C0C0;
+    color: black;
+}
+.greyFonce{
+    background: #808080;
+    color: black;
+}*/
+/**********************************/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(200, 200, 200);
+    padding: 0;
+   
+}
+header h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 42px;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;    
+}
+
+table,
+th,
+td {
+    border: none;
+}
+
+thead th {
+    padding: 8px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+thead th:nth-child(1) {
+    width: 10%;
+    font-weight: bold;
+}
+
+thead th:nth-child(2) {
+    width: 90%;
+}
+
+table td {
+    font-size: 14px;
+}
+
+tbody td {
+    padding-top: 8px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(230, 230, 230);
+}
+
+tbody td {
+    padding: 5px;
+}
+
+tbody td:nth-child(1) {
+    font-weight: 800;
+    text-align: center;
+}
+
+tbody td:nth-child(1) a,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+tbody tr:hover {
+    background-color: rgb(150, 150, 150);
+    cursor: pointer;
+}
+
+article {
+    font-size: 14px;
+}
+
+article h2 {
+    color: red;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+a.red_link {
+    color: red;
+    font-weight: bold;
+}
+
+span#photo {
+    margin-top: 20px;
+    display: block;
+    border: 2px solid red;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(50, 50, 50);
+}
+
+span#photo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-top: 20px;
+
+}
+span#photo p {
+    width: 90%;
+    color: white;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.definition {
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(184, 184, 184);
+    border-style: dashed;
+    color: rgb(114, 81, 187);
+    line-height: 1.5em;
+    width: 90%;
+    text-align: left;
+    font-size: 14px;
+}
